@@ -10,6 +10,8 @@
 
 После установки Proxmox VE на железо, первым делом вылезет уведомление об отсутствии подписки на платный репозиторий. Для решение этой проблемы надо произвести следующие действия:
 
+[Image alt](https://github.com/zhdanovichq/homelab/raw/master/pic/subscription_server.png)
+
 Отключаем Proxmox от платного репозитория
 
 ```shell
