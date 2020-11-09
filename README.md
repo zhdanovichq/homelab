@@ -111,7 +111,7 @@ sudo service ssh restart
 
 ##### 
 
-##Установка **Docker** и **Docker Compose** 
+## Установка Docker и Docker Compose 
 
 ------
 
