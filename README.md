@@ -112,7 +112,7 @@ sudo apt upgrade
 ```shell
 sudo apt install -y vim zsh mosh tmux htop git jq mc curl wget \
 unzip zip bash gcc build-essential make neofetch apparmor-utils \
-apt-transport-https apt-transport-https ca-certificates dbus \
+apt-transport-https qemu-guest-agent ca-certificates dbus \
 network-manager socat software-properties-common supervisor \
 gnupg2 gawk ctop tree python3 python3-venv python3-pip \
 python3-dev golang nodejs npm  php-cli ruby-full bc \
