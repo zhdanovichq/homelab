@@ -138,7 +138,7 @@ sudo apt install docker-ce docker-ce-cli containerd.io
 
 ```shell
 sudo pip3 install --upgrade pip
-sudo pip3 install docker-compose Обновляем pip и ставим Docker compose
+sudo pip3 install docker-compose
 ```
 
 В дальнейшем все действия будем выполнять от нашего пользователя **my_user** (1000:1000). Добавляем юзера в группу **docker**, и логинимся в учетку занаво. 
