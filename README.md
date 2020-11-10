@@ -4,7 +4,45 @@
 
 Многое из текста может вам не пригодиться, так что не стоит его рассматривать как исчерпывающий гайд который решит все ваши проблемы.
 
+
+В качестве хостовой системы использую Proxmox v6. Самое удобное решение для виртуализации которое я нашел. В статье будет описано как на базе него запускать виртуальные машины с Ubuntu Server и OpenMediaVault.
+
+Ubuntu Server я использую для запуска кучи докер контейнеров которые решают различные задачи. От домашней автоматизации до сервисов учета финансов. 
+OpenMediaVault решает задачи NAS сервера. Он имеет доступ к дискам, и в него стекает весь контент.
+
+
 ##### АХТУНГ! - Полный тест на данный момент еще готов. Возможны ошибки, и прочие подводные камни.
+
+Конфиг сервера:
+Процессор - Intel i3-3220 (4) @ 3.300GHz
+ОЗУ - DDR3 8Gb 1666MHz
+SSD - 128Gb (MLC)
+HHD - Seagate Barracuda 500Gb x2 (RAID1)
+Материнская плата - Gigabyte  h61
+Корпус - Cooler Master elite 110
+Блок питания - Cooler Master MWE 400w
+Кулер - Intel box cooler
+Вентилятор - be quiet! Silent Wings 3 120mm
+Zigbee адаптер - TI cc2531
+Bluetooh адаптер - CSR8510
+
+Девайсы умного дома:
+Xiaomi Mijia Smart LED Desk Lamp
+Yeelight jiaoyue 260
+Aqara wall switch
+Sonoff TX switch (espHome)
+Sonoff basic (espurna)
+WLED Controller 
+Magic Home RGBW (espHome)
+Gyverlamp (MQTT)
+Intercom Controller
+IKEA Tradfri RGB Lamp
+IKEA Tradfri Remote
+Google Home Mini
+Google Chromecast 1gen.
+LG WebOs TV
+JBL Playlist
+Zolo Halo
 
 ## Первоначальная настройка Proxmox VM 
 
