@@ -46,6 +46,7 @@ Ubuntu Server я использую для запуска кучи докер к
 * Magic Home RGBW (espHome)
 * Gyverlamp (MQTT)
 * Intercom Controller
+* Xiaomi Mijia Temperature/Humidity monitor (BLE)
 * IKEA Tradfri RGB Lamp
 * IKEA Tradfri Remote
 * Google Home Mini
@@ -53,6 +54,7 @@ Ubuntu Server я использую для запуска кучи докер к
 * LG WebOs TV
 * JBL Playlist
 * Zolo Halo
+* Mikrotik hAP ac²
 
 ## Первоначальная настройка Proxmox VM 
 
